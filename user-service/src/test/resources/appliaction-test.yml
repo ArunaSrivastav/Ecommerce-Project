@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    # These will be overridden by @ServiceConnection
+    url: jdbc:postgresql://localhost:5432/test_db
+    username: test
+    password: test
+
+logging:
+  level:
+    org.testcontainers: INFO
+    com.github.dockerjava: WARN
