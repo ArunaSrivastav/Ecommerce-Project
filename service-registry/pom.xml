@@ -8,11 +8,11 @@
         <version>4.0.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.discovery</groupId>
-	<artifactId>service-discovery</artifactId>
+	<groupId>com.registry</groupId>
+	<artifactId>service-registry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>service-discovery</name>
-	<description>Service Discovery Microservice</description>
+	<name>service-registry</name>
+	<description>Service Registry Microservice</description>
 	<url/>
 	<licenses>
 		<license/>
